@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginTop="4.0dip" android:layout_marginRight="8.0dip" android:layout_marginBottom="4.0dip">
+        <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="@drawable/darkpandablue" android:id="@id/game_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="title" android:maxLines="1" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="42.0dip">
+            <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <TextView android:textAppearance="?android:textAppearanceSmall" android:textSize="17.0dip" android:id="@id/whiteid" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="white" />
+                <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="@drawable/halfblack" android:id="@id/whiterank" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="1d" />
+            </LinearLayout>
+            <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="@drawable/halfblack" android:id="@id/textView5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:layout_marginTop="2.0dip" android:layout_marginRight="4.0dip" android:text="vs" />
+            <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <TextView android:textAppearance="?android:textAppearanceSmall" android:textSize="17.0dip" android:id="@id/blackid" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="black" />
+                <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="@drawable/halfblack" android:id="@id/blackrank" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="1d" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="32.0dip" android:layout_height="fill_parent">
+                <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="@drawable/white" android:gravity="center_horizontal" android:id="@id/moves" android:background="@drawable/halfblack" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:layout_marginBottom="2.0dip" android:text="123" />
+                <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="@drawable/halfblack" android:gravity="center_horizontal" android:id="@id/observers" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="12" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

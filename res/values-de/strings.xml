@@ -1,0 +1,454 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="_registration_url">http://www.pandanet-igs.com/igs_users/register</string>
+    <string name="_news_url">http://www.pandanet.co.jp/smt/en/topics</string>
+    <string name="_women_url">http://www.pandanet.co.jp/English/soudan/soudan.htm</string>
+    <string name="_pro_games_url">http://www.pandanet.co.jp/smt/en/game_rec/</string>
+    <string name="_online_help_url">http://tetsuki.gentgo.be/help.html</string>
+    <string name="_tetsuki_url">http://tetsuki.gentgo.be</string>
+    <string name="app_name">Pandanet(Go)</string>
+    <string name="_USE_JAPANESE_DEFAULTS_">0</string>
+    <string name="one_point">1 Punkt</string>
+    <string name="minus_one_point">-1 Punkt</string>
+    <string name="half_point">½ Punkt</string>
+    <string name="minus_half_point">-½ Punkt</string>
+    <string name="minus_n_points">-%d Punkte</string>
+    <string name="minus_n_half_points">-%d½ Punkte</string>
+    <string name="n_min">%d Min.</string>
+    <string name="nine_board">9×9 Brett</string>
+    <string name="thirteen_board">13×13 Brett</string>
+    <string name="nineteen_board">19×19 Brett</string>
+    <string name="go_nxn_board" formatted="false">Go, %d×%d Brett</string>
+    <string name="n_minutes">%d Minuten</string>
+    <string name="n_min_n_moves" formatted="false">%d Min. / %d Züge</string>
+    <string name="n_min_n_min_n_moves" formatted="false">%d Min. + %d Min. / %d Züge</string>
+    <string name="n_stones_s" formatted="false">%d Steine, %s</string>
+    <string name="no_handicap_s">keine Vorgabe, %s</string>
+    <string name="change_status">Deinen Status ändern?</string>
+    <string name="status_will_be_accepting">Dein Status wird “Spiele Annehmen”.</string>
+    <string name="guest_login">Als Gast angemeldet</string>
+    <string name="cant_play_because_guest">Wenn du als Gast angemeldet bist, kannst du keine Spiele spielen oder Einladungen verschicken.</string>
+    <string name="opponent_asks_minus_n_komi">Dein Gegner schlägt ein Komi von %d Steine für Schwarz vor.</string>
+    <string name="opponent_asks_minus_n_half_komi">Dein Gegner schlägt ein Komi von %d½ Steine für Schwarz vor.</string>
+    <string name="opponent_asks_n_komi">Dein Gegner schlägt ein Komi von %d Steine vor.</string>
+    <string name="opponent_asks_n_half_komi">Dein Gegner schlägt ein Komi von %d½ Steine vor.</string>
+    <string name="refuse">Ablehnen</string>
+    <string name="accept">Annehmen</string>
+    <string name="disconnected">Getrennt</string>
+    <string name="connection_lost">Die Verbindung zum Server wurde unterbrochen.</string>
+    <string name="server_not_found">Server nicht verfügbar.</string>
+    <string name="server_not_found_message">Die App konnte keine Verbindung mit Pandanet aufnehmen. Falls Du mittels WiFi verbunden bist könnte deine Firewall das verhindern. Bitte überprufe Deine Einstellungen und versuche es noch mal.</string>
+    <string name="connection_restored">Verbindung wieder hergestellt.</string>
+    <string name="connection_back_message">Die Verbindung zum Server wurde wieder hergestellt.</string>
+    <string name="white_won">Weiß hat gewonnen.</string>
+    <string name="black_won">Schwarz hat gewonnen.</string>
+    <string name="s_won_on_time">%s hat auf Zeit gewonnen.</string>
+    <string name="s_won_by_resignation">%s hat gewonnen durch Aufgabe.</string>
+    <string name="s_won_by_n_points" formatted="false">%s hat mit %d Punkte gewonnen.</string>
+    <string name="s_won_by_n_half_points" formatted="false">%s hat mit %d½ Punkte gewonnen.</string>
+    <string name="tie">Das Spiel ist zu Ende und unentschieden!</string>
+    <string name="save_question">Möchtest du dieses Spiel entfernen oder in deinem Archiv speichern?</string>
+    <string name="game_over">Partie zu ende.</string>
+    <string name="delete">Entferne</string>
+    <string name="save">Speichern</string>
+    <string name="opponent_lost_connection">Gegner hat Verbindung verloren</string>
+    <string name="opponent_has_n_minutes">Dein Gegner hat seinen Internetverbindung verloren. Er hat %d Minuten um die Verbindung wieder herzustellen und weiter zu spielen. Bitte bleib deswegen angemeldet.</string>
+    <string name="allow_time_to_reconnect">Your opponent lost his connection. Please allow a few minutes for your opponent to reconnect and resume the game.</string>
+    <string name="opponent_back">Dein Gegner ist wieder da. Das Spiel geht weiter.</string>
+    <string name="won_disconnect">Du hast das Spiel gegen %s gewonnen, weil er die Verbindung nicht wieder aufgenommen hat.</string>
+    <string name="lost_disconnect">Schade, Du hast Dein Spiel gegen %s verloren, weil Du zu heufig die Verbindung verloren hast oder weil Du zu spät die Verbindung wieder hergestellt hast.</string>
+    <string name="cancel">Abbrechen</string>
+    <string name="continue_">Weiter</string>
+    <string name="ok">OK</string>
+    <string name="players">Spieler</string>
+    <string name="me">Ich</string>
+    <string name="everybody">Alle</string>
+    <string name="available">Verfügbar</string>
+    <string name="player">Spieler</string>
+    <string name="playing">Spielt gerade</string>
+    <string name="watching">Schaut ein Spiel an</string>
+    <string name="idle">Nicht aktiv</string>
+    <string name="s_vs_s" formatted="false">%s gegen %s</string>
+    <string name="game_n">Spiel %d ...</string>
+    <string name="status_nocaps">Status</string>
+    <string name="status">Status</string>
+    <string name="my_status">Mein Status</string>
+    <string name="busy">Beschäftigt</string>
+    <string name="refusing">Möchte nicht Spielen</string>
+    <string name="looking">Suche nach einem Spiel</string>
+    <string name="accepting">Warte auf Einladungen</string>
+    <string name="invite_long">Einladen zum Spielen</string>
+    <string name="n_wins_n_losses" formatted="false">%d Gewonnen, %d Verloren</string>
+    <string name="statistics">Ergebnisse</string>
+    <string name="info_nocaps">Info</string>
+    <string name="info">Info</string>
+    <string name="new_game">Neues Spiel</string>
+    <string name="invite">Einladen</string>
+    <string name="bc">Anf</string>
+    <string name="beginner">Anfänger</string>
+    <string name="n_kyu">%dk</string>
+    <string name="beginner_class">Anfänger</string>
+    <string name="black">Schwarz</string>
+    <string name="white">Weiß</string>
+    <string name="invitations">Einladungen</string>
+    <string name="sent">Verschickte Einladungen</string>
+    <string name="received">Entfangene Einladungen</string>
+    <string name="invitation">Einladung</string>
+    <string name="you_sent">"Deine Einladung ist verschickt.
+Der Eingeladene hat aber noch nicht reagiert."</string>
+    <string name="sent_to_you">"Du bist eingeladen worden.
+Du hast aber noch nicht reagiert."</string>
+    <string name="accept_invitation">Annehmen</string>
+    <string name="decline">Ablehnen</string>
+    <string name="n_points">%d Punkte</string>
+    <string name="n_half_points">%d½ Punkte</string>
+    <string name="scoring_done">Fertig</string>
+    <string name="end_game">Spiel beenden</string>
+    <string name="resign">Ich gebe auf</string>
+    <string name="resign_sure">Bist Du sicher das Du diesen Spiel aufgeben möchtest?</string>
+    <string name="pass">Ich passe</string>
+    <string name="no_game">Kein Spiel</string>
+    <string name="loading_game">Spiel laden…</string>
+    <string name="no_online_game">Du spielst gerade nicht auf dem Server.</string>
+    <string name="delete_last_move">Letzten Zug entfernen</string>
+    <string name="choose_handicap">Vorgabe Bestimmen</string>
+    <string name="handicap">Vorgabe</string>
+    <string name="komi">Komi</string>
+    <string name="no_komi">kein Komi</string>
+    <string name="captured">Gefangen</string>
+    <string name="territory">Gebiet</string>
+    <string name="total">Insgesamt</string>
+    <string name="no_handicap">Keine Vorgabe</string>
+    <string name="n_handicap_stones">%d Vorgabesteine</string>
+    <string name="n_stones">%d Steine</string>
+    <string name="email_game">Maile Spiel</string>
+    <string name="game_not_sent">E-mail nicht verschickt</string>
+    <string name="in_scoring">"Beide Spieler haben gepasst,
+sind aber noch dabei Gefangene zu entfernen."</string>
+    <string name="archived_game">Archivierte Spiele</string>
+    <string name="archive">Gespeichert</string>
+    <string name="record_game">Mitschreiben</string>
+    <string name="my_game">Mein Spiel</string>
+    <string name="back_to_game">Zurück zu meinem Spiel</string>
+    <string name="title">Titel</string>
+    <string name="date">Datum</string>
+    <string name="game">Spiel</string>
+    <string name="pandanet">Pandanet</string>
+    <string name="settings_nocaps">Einstellungen</string>
+    <string name="settings">Einstellungen</string>
+    <string name="account">Name</string>
+    <string name="appearance_settings">Aussehen</string>
+    <string name="watching_settings">Zuschauen</string>
+    <string name="playing_settings">Spielen</string>
+    <string name="enable_zoom">Einzoomen</string>
+    <string name="auto_zoom">Auszoomen nach jedem Zug</string>
+    <string name="tap_play">Mit diesen Einstellungen brauchst Du nur einmal zu tippen um einen Stein zu spielen.</string>
+    <string name="tap_zoom_play">"Mit diesen Einstellungen musst Du zweimal tippen um einen Stein zu spielen:
+1. Zoomen, 2. Spielen."</string>
+    <string name="tap_play_confirm">"Mit diesen Einstellungen musst Du zweimal Tippen um einen Stein zu spielen:
+1. Spielen, 2. Bestätigen."</string>
+    <string name="tap_zoom_play_confirm">"Mit diesen Einstellungen musst Du dreimal Tippen um einen Stein zu spielen:
+1. Zoomen, 2. Spielen, 3. Bestätigen."</string>
+    <string name="server">Server</string>
+    <string name="login">Anmelden</string>
+    <string name="as_guest">Als ‘Gast’ anmelden</string>
+    <string name="user_id">Name</string>
+    <string name="required">Pflichtfeld</string>
+    <string name="password">Kennwort</string>
+    <string name="kibitz">Unterhalte dich mit anderen Zuschauern</string>
+    <string name="speak_to_opponent">Rede mit deinem Gegner</string>
+    <string name="opponent_requests_undo">Zug zurücknehmen?</string>
+    <string name="opponent_undo_message">Dein Gegner fragt ob er seinen Zug zurücknehmen darf.</string>
+    <string name="take_back">Zurücknehmen</string>
+    <string name="coordinates">Beschriftung zeigen</string>
+    <string name="remove_dead_stones">Tote Steine entfernen</string>
+    <string name="remove_dead_stones_message">"Es ist Zeit, das Ergebnis zu ermitteln. Tippe auf tote Gruppen um diese vom Brett zu entfernen.
+Tippe auf ‘Fertig’, wenn du damit fertig bist."</string>
+    <string name="winner">Gewinner</string>
+    <string name="n_periods_n_secs" formatted="false">%d Perioden von %d Sek.</string>
+    <string name="ns_plus_nxns" formatted="false">%ds + %d×%ds</string>
+    <string name="few_settings_message">Damit du schnell ein Gegner bekommst, gibt‘s nur wenige Zeiteinstellungen.</string>
+    <string name="you_sent_open_invitation">"Du hast diese offene Einladung verschickt.
+Das Spiel fängt an, sobald ein Gegner sich meldet."</string>
+    <string name="provisional">(vorläufig)</string>
+    <string name="any_player">Suche einen Gegner</string>
+    <string name="find_opponent">Gegner suchen</string>
+    <string name="find">Suchen</string>
+    <string name="select_opponent">Wähle einen Gegner</string>
+    <string name="time">Zeit</string>
+    <string name="absolute_timing">Absolute Zeit</string>
+    <string name="canadian_timing">Kanadische Zeit</string>
+    <string name="japanese_timing">Japanische Zeit</string>
+    <string name="kouryo_timing">Kouryo Zeit</string>
+    <string name="main_time">Hauptzeit</string>
+    <string name="extra">extra</string>
+    <string name="system">System</string>
+    <string name="n_hours">%d Stunden</string>
+    <string name="n_moves">%d Züge</string>
+    <string name="per_move">pro Zug</string>
+    <string name="n_seconds">%d Sekunden</string>
+    <string name="nxn_seconds" formatted="false">%d × %d Sekunden</string>
+    <string name="n_sec_n_moves" formatted="false">%d Sek. / %d Züge</string>
+    <string name="nxn_n_minutes_each" formatted="false">%d×%d, Beide %d Minuten</string>
+    <string name="n_minutes_each">Beide %d Minuten</string>
+    <string name="n_minutes_plus_nxn_minutes" formatted="false">%d Minuten + %d×%d Minuten</string>
+    <string name="n_minutes_plus_nxn_seconds" formatted="false">%d Minuten + %d×%d Sekunden</string>
+    <string name="n_minutes_plus_n_minutes_n_moves" formatted="false">%d Minuten + %d Minuten für %d Züge</string>
+    <string name="kouryo_details" formatted="false">%d Min. + %d Sek. pro Zug + %d×%d Min.</string>
+    <string name="nxn_canadian_details" formatted="false">%d×%d, %d Min. + %d Min. für %d Züge</string>
+    <string name="nxn_japanese_details_min" formatted="false">%d×%d, %d Min. + %d×%d Min.</string>
+    <string name="nxn_japanese_details_sec" formatted="false">%d×%d, %d Min. + %d×%d Sek.</string>
+    <string name="nxn_kouryo" formatted="false">%d×%d, %d Min. + Kouryo Zeit</string>
+    <string name="none">keine</string>
+    <string name="loading_players">Spielerliste abfragen</string>
+    <string name="loading_games">Spiele Laden…</string>
+    <string name="no_games">Keine Spiele</string>
+    <string name="n_stones_or_less">%d Steine oder weniger</string>
+    <string name="encoding_message">"Ein Austausch zwischen Spielern klappt nur vollständig, wenn beide Seiten die gleiche Text-Kodierung verwenden.
+Auf Pandanet verwenden die meiste Spieler die japanische Kodierung (Shift-JIS); dies kann aber nur japanische Schriftzeichen und einen Teil der in europäischen Ländern üblichen Buchstaben darstellen."</string>
+    <string name="encoding">Kodierung</string>
+    <string name="shiftjis">Japanisch (Shift-JIS)</string>
+    <string name="latin_one">Westeuropäisch (ISO-Latin-1)</string>
+    <string name="latin_two">Zentraleuropäisch (ISO-Latin-2)</string>
+    <string name="utf_eight">Unicode (UTF-8)</string>
+    <string name="score">Ergebnis</string>
+    <string name="from">Von</string>
+    <string name="to">An</string>
+    <string name="playing_black">Spielt mit Schwarz</string>
+    <string name="playing_white">Spielt mit Weiß</string>
+    <string name="nigiri">Das Los entscheidet wer welche Farbe bekommt</string>
+    <string name="nxn_no_handicap" formatted="false">%d×%d. Brett, keine Vorgabe</string>
+    <string name="nxn_n_stones" formatted="false">%d×%d. Brett, %d Steine</string>
+    <string name="nxn_board" formatted="false">%d×%d. Brett</string>
+    <string name="home">Start</string>
+    <string name="connecting">Verbinde…</string>
+    <string name="connecting_message">Verbindung mit Pandanet wird aufgebaut...</string>
+    <string name="welcome_message">Willkommen bei Pandanet</string>
+    <string name="create_account">Beantrage ein Pandanet-Namen</string>
+    <string name="login_error">Falscher Name oder falsches Kennwort</string>
+    <string name="login_error_message">"Pandanet hat deine Benutzernamen nicht akzeptiert oder Kennwort war falsch.
+Du bist jetzt verbunden als Gast."</string>
+    <string name="logged_in_as">Angemeldet als</string>
+    <string name="connect_error">Kein Verbindung mit dem Pandanet</string>
+    <string name="news">Neuigkeiten</string>
+    <string name="net_social">Net Social</string>
+    <string name="pro_diary">Pro-Damen</string>
+    <string name="progress">Mein Fortschritt</string>
+    <string name="pro_games">Pro Spiele</string>
+    <string name="daily_problem">Problem des Tages</string>
+    <string name="select_games">Spiel(e) auswählen</string>
+    <string name="one_game_selected">1 Spiel ausgewählt</string>
+    <string name="n_games_selected">%d Spiele ausgewählt</string>
+    <string name="email">E-mail</string>
+    <string name="random">Losen</string>
+    <string name="my_color">Meine Farbe</string>
+    <string name="board_size">Brett</string>
+    <string name="no_players">Keine Spieler</string>
+    <string name="report">Problem melden</string>
+    <string name="restart_counting">Erneut zählen</string>
+    <string name="opponent_not_done">Bitte warte auf deinen Gegner</string>
+    <string name="opponent_not_done_message">Das Spiel ist erst beendet, wenn beide Spieler das Zählen abgeschlossen haben. Dein Gegner ist noch nicht so weit.</string>
+    <string name="report_message">Dieses Spiel wird abgebrochen und der Pandanet-Jury geschickt. Diese wird den Fall untersuchen und Maßnahmen ergreifen. Bitte nenne dazu einen gültigen Grund. Missbrauch kann zu Maßnahmen gegen dich führen.</string>
+    <string name="offensive_chatting">Beleidigungen</string>
+    <string name="opponent_keeps_playing">Gegner beendet nicht</string>
+    <string name="no_result">Spiel ohne “Ergebnis”</string>
+    <string name="territory_not_closed">Gruppe nicht geschlossen</string>
+    <string name="scoring_disagreement">Falsches Ergebnis</string>
+    <string name="confirm_moves">Züge bestätigen</string>
+    <string name="japanese_ranking">Japanische Ränge</string>
+    <string name="one_dan">1d</string>
+    <string name="two_dan">2d</string>
+    <string name="three_dan">3d</string>
+    <string name="four_dan">4d</string>
+    <string name="five_dan">5d</string>
+    <string name="six_dan">6d</string>
+    <string name="seven_dan">7d</string>
+    <string name="eight_dan">8d</string>
+    <string name="nine_dan">9d</string>
+    <string name="ten_dan">10d</string>
+    <string name="pro_suffix">Pro</string>
+    <string name="pro">Pro</string>
+    <string name="professional">Profi-Spieler</string>
+    <string name="plus">+</string>
+    <string name="old_client_message">Dein Gegner benutzt eine ältere Software. Vorgabe und Komi werden deswegen automatisch bestimmt.</string>
+    <string name="wrong_status">"Dein aktueller Status erlaubt keine Einladungen.
+Bitte ändere deinen Status zum Spielen."</string>
+    <string name="no_invitations">Im Moment hast du keine Einladungen verschickt oder bekommen.</string>
+    <string name="chat">Chat</string>
+    <string name="my_info">Meine Info</string>
+    <string name="show_opponent">Gegner Anzeigen</string>
+    <string name="n_observers">%d Zuschauer</string>
+    <string name="one_observer">1 Zuschauer</string>
+    <string name="move_white" formatted="false">Zug %d : Weiß %c%d</string>
+    <string name="move_black" formatted="false">Zug %d : Schwarz %c%d</string>
+    <string name="info_message">Hier kannst du etwas Aktuelles über dich eingeben und mit jedem teilen.</string>
+    <string name="connect">Verbinde</string>
+    <string name="make_variation">Variante anlegen</string>
+    <string name="add_to_archive">In deinem Archiv speichern</string>
+    <string name="see_ns">%s anschauen</string>
+    <string name="game_not_over">Dieses Spiel ist noch nicht zu Ende</string>
+    <string name="game_not_over_message">Möchtest du nicht warten, bis das Spiel zu Ende ist?</string>
+    <string name="archive_now">Speichere Jetzt</string>
+    <string name="go_back">Hierhin Zurück</string>
+    <string name="guest_cant_speak">Da du als Gast angemeldet bist, darfst du nicht mitreden</string>
+    <string name="popular_quotes">Hilfreiche Sätze</string>
+    <string name="log_in">Anmelden</string>
+    <string name="continue_as_guest">Weiter als Gast</string>
+    <string name="continue_offline">Weiter ohne Server</string>
+    <string name="my_account">Mein Name…</string>
+    <string name="try_again">Nochmal versuchen</string>
+    <string name="back">Zurück</string>
+    <string name="mypanda">Net Social Plaza</string>
+    <string name="mypanda_message">Alle meine Pandanet-Spiele</string>
+    <string name="net_social_plaza">Im Net Social Plaza anschauen</string>
+    <string name="enter_room">Raum wählen</string>
+    <string name="room">Raum</string>
+    <string name="room_nocaps">Raum</string>
+    <string name="main_hall">Großer Saal</string>
+    <string name="room_message">Du kannst nur Spieler sehen, die im gleichen Raum sind.</string>
+    <string name="delete_n_moves">Entferne %d Züge</string>
+    <string name="customize_view">Darstellung</string>
+    <string name="background">Hintergrund</string>
+    <string name="board">Brett</string>
+    <string name="stones">Steine</string>
+    <string name="tatami">Matte</string>
+    <string name="green_felt">Grünen Filz</string>
+    <string name="grey_triangles">Grey triangles</string>
+    <string name="red_waves">Red waves</string>
+    <string name="blue_cloth">Blue cloth</string>
+    <string name="oak_board">Eiche</string>
+    <string name="kaya_board">Kaya-Brett</string>
+    <string name="round_stones">Runde Steine</string>
+    <string name="flat_stones">Flache Steine</string>
+    <string name="change_password">Kennwort ändern</string>
+    <string name="verify">Bestätigung</string>
+    <string name="new_password_message">Dein Kennwort muss zwischen 5 und 10 Zeichen haben, Lehrzeichen sind nicht erlaubt. Zur Bestätigung musst Du Dein neues Passwort zwei Mal eingeben.</string>
+    <string name="done">Fertig</string>
+    <string name="new_invitation">Einladung schicken</string>
+    <string name="n_new_invitations">%d neue Einladungen</string>
+    <string name="organize">Organisiere</string>
+    <string name="add">Neu</string>
+    <string name="sure_quit">Die App schließen?</string>
+    <string name="quit_message">Bist du sicher, dass du beenden möchtest? Du wirst auch abgemeldet werden.</string>
+    <string name="quit_and_logoff">Abmelden und Beenden</string>
+    <string name="go_begin">Zum Anfang</string>
+    <string name="go_end">Zum Ende</string>
+    <string name="sound_volume">Töne</string>
+    <string name="version">Version</string>
+    <string name="edit_mode">Bearbeiten</string>
+    <string name="view_mode">Anschauen</string>
+    <string name="replay_speed">Abspielgeschwindigkeit</string>
+    <string name="replay_very_fast">Sehr hoch</string>
+    <string name="replay_fast">Hoch</string>
+    <string name="replay_medium">Normal</string>
+    <string name="replay_slow">Langsam</string>
+    <string name="replay_very_slow">Sehr Langsam</string>
+    <string name="view_mode_help_title">Spiel kann nur zugeschaut werden</string>
+    <string name="view_mode_help_message">"Um Steine spielen zu können oder Variationen zu legen musst Du in den 'Bearbeiten'-Modus wechslen. Das geht über den Info-Knopf."</string>
+    <string name="one_observer_s">1 Zuschauer: %s</string>
+    <string name="n_observers_s" formatted="false">"%d Zuschauer:
+%s"</string>
+    <string name="no_observers">(Keine Zuschauer)</string>
+    <string name="commentary_from_s">Kommentar von %s</string>
+    <string name="commentary">Kommentar</string>
+    <string name="show_commentary">Zeigen</string>
+    <string name="n_variations">(%d Varianten)</string>
+    <string name="one_variation">(1 Variante)</string>
+    <string name="commentary_help_title">Im Spiel gibt es Kommentare</string>
+    <string name="commentary_help_message">Züge mit ein Kommentar sind gekennzeichnet. Tippe auf einen markierten Stein um den Kommartar zu lesen.</string>
+    <string name="variations_not_saved">Diese Kommentare werden nicht im Archiv gespeichert.</string>
+    <string name="estimate_score">Ergebnis berechnen</string>
+    <string name="game_info">Spiel Information</string>
+    <string name="observe">Zuschauen</string>
+    <string name="play">Spiele!</string>
+    <string name="website">Webseite</string>
+    <string name="help">Hilfe</string>
+    <string name="observe_subtitle">Schaue anderen Spielern beim Spielen zu</string>
+    <string name="play_subtitle">Finde einen Gegner und Spiele online</string>
+    <string name="players_subtitle">Schaue wer noch online ist</string>
+    <string name="invitations_subtitle">Einlandungen zum spielen</string>
+    <string name="daily_problem_subtitle">Lösung einschicken</string>
+    <string name="news_subtitle">Neuigkeiten und Profi Spiele</string>
+    <string name="archive_subtitle">Spiele gespeichert auf Deinem Gerät</string>
+    <string name="net_social_subtitle">Schau Deine Statistik an und mach neue Freunde</string>
+    <string name="website_subtitle">Mehr über Pandanet</string>
+    <string name="help_subtitle">Holle das beste aus dieser App raus</string>
+    <string name="go_offline">Verbindung unterbrechen</string>
+    <string name="logoff">Abmelden</string>
+    <string name="connected_as_guest">Du bist als Gast verbunden</string>
+    <string name="guest_message">"Du bist als Gast verbunden und kannst Spiele von andern Spieler zushehen.
+Falls Du selber spielen möchtest oder Kommentare geben möchtest brauchst Du Deinen persönlichen Pandanet account."</string>
+    <string name="profile">Profil</string>
+    <string name="invitations_info">"Um online zu spielen, muß ein Spieler eine Einladung verschicken an seinen Gegner. Das Spiel wird automatisch beginnen sobald dieser die Einladung akzeptiert hat.
+
+Als Alternative kannst Du mithilfe von Pandanet ein Gegner finden. Das Spiel wird automatisch beginnen sobald ein anderer Spieler mit vergleichbarer Spielstärke das selber tut."</string>
+    <string name="diary_subtitle">Read journals of star woman players</string>
+    <string name="add_time">Allow more time</string>
+    <string name="add_time_info">Give your opponent some extra time</string>
+    <string name="add_friend">Add to Favorites</string>
+    <string name="remove_friend">Remove from Favorites</string>
+    <string name="friends">Favorites</string>
+    <string name="tsumego_app">Life and Death</string>
+    <string name="tsumego_app_subtitle">An app to study go problems</string>
+    <string name="progress_subtitle">Found out how to improve</string>
+    <string name="iap_sign_up">Sign Up</string>
+    <string name="iap_sign_up_info">To play games, you need a subscription. There are two types of subscriptions:</string>
+    <string name="iap_ios_subscription">iOS Subscription</string>
+    <string name="iap_ios_subscription_buy">Buy Now</string>
+    <string name="iap_ios_subscription_restore">Restore from Another Device</string>
+    <string name="iap_ios_subscription_info">An iOS subscription is easy and fast to purchase. You can play on all your iOS devices.</string>
+    <string name="iap_generic_subscription">Pandanet Subscription</string>
+    <string name="iap_generic_subscription_info">For a Pandanet Subscription you have to register and pay on our website. You can play on all your devices (PC and mobile).</string>
+    <string name="iap_generic_link_text">More info...</string>
+    <string name="iap_pandanet_account">I have a Pandanet subscription</string>
+    <string name="iap_continue_as_guest">Continue as Guest</string>
+    <string name="iap_continue_as_guest_info">Without a subscription you can not play games, but you can watch games.</string>
+    <string name="iap_ios_expired">Your iOS subscription has expired</string>
+    <string name="iap_renew_ios">Renew iOS subscription</string>
+    <string name="iap_generic_expired">Your Pandanet subscription has expired</string>
+    <string name="iap_renew_generic">Renew my subscription</string>
+    <string name="iap_renew_generic_info">To play on all your devices (PC and mobile). Buy via our website.</string>
+    <string name="iap_change_ios">iOS Subscription</string>
+    <string name="iap_change_ios_info">To play games on all your iOS devices. Pay directly on your device. Requires a new login.</string>
+    <string name="iap_ios_buy_title">iOS Subscription</string>
+    <string name="iap_ios_buy_info">With this subscription you can play Pandanet games on your iPhone, iPod and iPad. It lasts 30 days, starting the day of purchase. Afterwards you can purchase an additional 30 days.</string>
+    <string name="iap_ios_price">%s for 30 days</string>
+    <string name="iap_ios_buy_button">Buy Now</string>
+    <string name="iap_account_details">Account Details</string>
+    <string name="iap_email">Email</string>
+    <string name="iap_email_info">We need your email address so that our support can contact you in case of a problem. We will send an email with a link to confirm your email address in the next 3 days.</string>
+    <string name="iap_name">Name</string>
+    <string name="iap_name_info">In case our support needs to contact you</string>
+    <string name="iap_login">Login</string>
+    <string name="iap_login_info">Choose a login. Other players will see you by this name. Maximum 10 roman characters, no spaces.</string>
+    <string name="iap_login_invalid">This login is not a valid name, it must have maximum 10 roman characters or numbers, no spaces.</string>
+    <string name="iap_login_exists">"We're sorry, but this login is already in use. Please choose a different one."</string>
+    <string name="iap_rating">Rating</string>
+    <string name="iap_rating_info">How strong are you? If you have not been playing for long, we recommend that you choose beginners class.</string>
+    <string name="iap_create_account">Create Account</string>
+    <string name="iap_payment_late">Waiting for Payment...</string>
+    <string name="iap_payment_late_info">It takes longer than usual to process your payment. For now you will be connected as a guest. As soon as we get confirmation of the payment, you will automatically be logged in with your new account.</string>
+    <string name="iap_payment_late_ok">Continue as Guest</string>
+    <string name="iap_not_confirmed">Email not confirmed yet</string>
+    <string name="iap_not_confirmed_info">We have not been able to check your email address %s. We have sent a mail with a confirmation link, but you have not yet clicked on that link. You need to confirm your email before you can continue to use your subscription.</string>
+    <string name="iap_just_confirmed">OK, I just did it</string>
+    <string name="iap_no_email">I did not get the email</string>
+    <string name="iap_no_email_info">You supplied the wrong email address, or you want us to resend the mail.</string>
+    <string name="iap_confirm_later">I will do it later</string>
+    <string name="iap_confirm_later_info">You will continue as a guest, for now.</string>
+    <string name="iap_check_email">Please check your email address</string>
+    <string name="iap_update_email">Update e-mail address</string>
+    <string name="iap_update_email_info">We will send you a new confirmation email</string>
+    <string name="iap_resend">Resend the confirmation email</string>
+    <string name="iap_confirm">Confirm your email address</string>
+    <string name="iap_confirm_info">We have sent an email with a confirmation link to %s. Please click on the link in that email before proceeding.</string>
+    <string name="iap_problem">There is a problem with your account</string>
+    <string name="iap_problem_info">You need to contact our support for further instructions.</string>
+    <string name="iap_problem_ok">Continue as a guest (for now)</string>
+    <string name="iap_problem_try_later">You could not be registered. Please try again later.</string>
+    <string name="iap_problem_check_email">You could not be registered. Please check your email.</string>
+    <string name="iap_problem_check_login">You could not be registered. Please check your login.</string>
+    <string name="iap_error_n">(Error code: %d)</string>
+    <string name="iap_restore_failed">No Subscription Found</string>
+    <string name="iap_restore_failed_info">There was no subscription information found on your iCloud.</string>
+</resources>

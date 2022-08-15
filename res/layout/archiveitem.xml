@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="60.0dip" android:layout_height="60.0dip" android:layout_margin="8.0dip">
+        <be.gentgo.tetsuki.DocumentThumbnail android:layout_gravity="center" android:id="@id/thumbnail" android:layout_width="70.0dip" android:layout_height="70.0dip" android:scaleType="center" />
+        <ImageView android:id="@id/select" android:layout_width="32.0dip" android:layout_height="32.0dip" android:src="@drawable/selected" android:scaleType="center" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@id/linearlayout1" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="19.0dip" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="TextView" android:maxLines="2" />
+        <TextView android:id="@id/subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="TextView" />
+    </LinearLayout>
+</LinearLayout>

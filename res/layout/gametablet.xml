@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/gameviewparent" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="44.0dip">
+        <be.gentgo.tetsuki.GameView android:id="@id/gameview" android:background="@drawable/greennoisepattern" android:focusable="true" android:focusableInTouchMode="false" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </RelativeLayout>
+    <LinearLayout android:id="@id/gametitlebar" android:background="@drawable/ribbonpattern" android:layout_width="fill_parent" android:layout_height="44.0dip">
+        <LinearLayout android:id="@id/leftbuttons" android:layout_width="135.0dip" android:layout_height="fill_parent" android:layout_weight="0.0">
+            <ImageView android:id="@id/zoombutton" android:background="@drawable/toolbuttonbackground" android:focusable="true" android:layout_width="45.0dip" android:layout_height="fill_parent" android:src="@drawable/zoom_in" android:scaleType="center" android:layout_weight="0.0" />
+            <ImageView android:id="@id/chatbutton" android:background="@drawable/toolbuttonbackground" android:focusable="true" android:layout_width="45.0dip" android:layout_height="fill_parent" android:src="@drawable/chat" android:scaleType="center" android:layout_weight="0.0" />
+            <ImageView android:id="@id/playbutton" android:background="@drawable/toolbuttonbackground" android:focusable="true" android:layout_width="45.0dip" android:layout_height="fill_parent" android:src="@drawable/play" android:scaleType="center" android:layout_weight="0.0" />
+        </LinearLayout>
+        <be.gentgo.tetsuki.TitleView android:id="@id/title" android:layout_width="wrap_content" android:layout_height="44.0dip" android:layout_weight="1.0" />
+        <LinearLayout android:id="@id/rightbuttons" android:layout_width="135.0dip" android:layout_height="fill_parent" android:layout_weight="0.0">
+            <ImageView android:id="@id/settingsbutton" android:background="@drawable/toolbuttonbackground" android:focusable="true" android:layout_width="45.0dip" android:layout_height="fill_parent" android:src="@drawable/gear_small" android:scaleType="center" android:layout_weight="0.0" />
+            <ImageView android:id="@id/flagbutton" android:background="@drawable/toolbuttonbackground" android:focusable="true" android:layout_width="45.0dip" android:layout_height="fill_parent" android:src="@drawable/flag" android:scaleType="center" android:layout_weight="0.0" />
+            <ImageView android:id="@id/scorebutton" android:background="@drawable/toolbuttonbackground" android:focusable="true" android:layout_width="45.0dip" android:layout_height="44.0dip" android:src="@drawable/score_noborder" android:scaleType="center" android:layout_weight="0.0" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/slidergroup" android:background="@drawable/sliderbackground" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="4.0dip" android:layout_alignParentLeft="true" android:layout_alignParentTop="false" android:layout_alignParentRight="true" android:layout_alignParentBottom="true">
+        <ImageView android:id="@id/backbutton" android:focusable="false" android:layout_width="36.0dip" android:layout_height="36.0dip" android:src="@drawable/left" android:scaleType="center" />
+        <be.gentgo.tetsuki.GameSliderView android:id="@id/slider" android:focusable="true" android:layout_width="36.0dip" android:layout_height="36.0dip" android:src="@drawable/panda" android:layout_weight="1.0" />
+        <ImageView android:id="@id/forwardbutton" android:focusable="false" android:layout_width="36.0dip" android:layout_height="36.0dip" android:src="@drawable/right" android:scaleType="center" />
+    </LinearLayout>
+</RelativeLayout>

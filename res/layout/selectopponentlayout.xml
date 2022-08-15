@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/titlebar" android:background="@drawable/darkpandablue" android:layout_width="fill_parent" android:layout_height="56.0dip" android:baselineAligned="false">
+        <TextView android:textAppearance="?android:textAppearanceLarge" android:textColor="@drawable/white" android:gravity="center|left" android:layout_gravity="center" android:id="@id/title" android:layout_width="100.0dip" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:text="@string/select_opponent" android:minLines="1" android:layout_weight="1.0" />
+        <Button android:textSize="15.0sp" android:textColor="@drawable/white" android:layout_gravity="center_vertical" android:id="@id/me_button" android:background="@drawable/bluebutton" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginRight="8.0dip" android:text="me" android:layout_weight="0.0" android:textAllCaps="true" />
+    </LinearLayout>
+    <FrameLayout android:id="@id/activityindicator" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ProgressBar android:layout_gravity="center" android:id="@id/progressBar1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" style="?android:attr/progressBarStyleLarge" />
+    </FrameLayout>
+    <RelativeLayout android:id="@id/listparent" android:background="@drawable/white" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ListView android:id="@id/list" android:nextFocusRight="@id/index" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <be.gentgo.tetsuki.RankIndexView android:id="@id/index" android:focusable="true" android:nextFocusLeft="@id/list" android:layout_width="32.0dip" android:layout_height="fill_parent" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" package="be.gentgo.tetsuki" platformBuildVersionCode="26" platformBuildVersionName="8.0.0">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <application android:allowBackup="true" android:icon="@drawable/icon" android:label="@string/app_name" android:theme="@style/Theme.splash" android:usesCleartextTraffic="true">
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:label="@string/app_name" android:launchMode="singleTask" android:name="be.gentgo.tetsuki.Main" android:theme="@style/Theme.appTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="pandanetclient"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="be.gentgo.tetsuki.GameObserveActivity"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="be.gentgo.tetsuki.GameRecordActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="http"/>
+                <data android:scheme="https"/>
+                <data android:scheme="ftp"/>
+                <data android:scheme="file"/>
+                <data android:scheme="content"/>
+                <data android:host="*"/>
+                <data android:pathPattern=".*\\.sgf"/>
+                <data android:pathPattern=".*\\..*\\.sgf"/>
+                <data android:pathPattern=".*\\..*\\..*\\.sgf"/>
+                <data android:pathPattern=".*\\..*\\..*\\..*\\.sgf"/>
+                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\.sgf"/>
+                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\.sgf"/>
+                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\..*\\.sgf"/>
+                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.sgf"/>
+                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.sgf"/>
+                <data android:pathPattern=".*\\.ugi"/>
+                <data android:pathPattern=".*\\..*\\.ugi"/>
+                <data android:pathPattern=".*\\..*\\..*\\.ugi"/>
+                <data android:pathPattern=".*\\..*\\..*\\..*\\.ugi"/>
+                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\.ugi"/>
+                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\.ugi"/>
+                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\..*\\.ugi"/>
+                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.ugi"/>
+                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.ugi"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="content"/>
+                <data android:scheme="file"/>
+                <data android:mimeType="application/x-go-ugf"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="content"/>
+                <data android:scheme="file"/>
+                <data android:mimeType="application/x-go-sgf"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="content"/>
+                <data android:scheme="file"/>
+                <data android:mimeType="*/*"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="http"/>
+                <data android:scheme="https"/>
+                <data android:scheme="ftp"/>
+                <data android:scheme="content"/>
+                <data android:scheme="file"/>
+                <data android:host="*"/>
+                <data android:mimeType="*/*"/>
+                <data android:pathPattern=".*\\.sgf"/>
+                <data android:pathPattern=".*\\..*\\.sgf"/>
+                <data android:pathPattern=".*\\..*\\..*\\.sgf"/>
+                <data android:pathPattern=".*\\..*\\..*\\..*\\.sgf"/>
+                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\.sgf"/>
+                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\.sgf"/>
+                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\..*\\.sgf"/>
+                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.sgf"/>
+                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.sgf"/>
+                <data android:pathPattern=".*\\.ugi"/>
+                <data android:pathPattern=".*\\..*\\.ugi"/>
+                <data android:pathPattern=".*\\..*\\..*\\.ugi"/>
+                <data android:pathPattern=".*\\..*\\..*\\..*\\.ugi"/>
+                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\.ugi"/>
+                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\.ugi"/>
+                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\..*\\.ugi"/>
+                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.ugi"/>
+                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.ugi"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="be.gentgo.tetsuki.GamePlayActivity"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="be.gentgo.tetsuki.DialogFragmentActivity" android:theme="@android:style/Theme.Holo.Light.Dialog"/>
+    </application>
+</manifest>

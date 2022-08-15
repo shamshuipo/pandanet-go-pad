@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <be.gentgo.tetsuki.GameView android:id="@id/gameview" android:background="@drawable/bluenoisepattern" android:focusable="true" android:focusableInTouchMode="false" android:layout_width="150.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10.0dip">
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:id="@id/textView3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/background" />
+        <RadioGroup android:id="@id/backgroundradiogroup" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <RadioButton android:id="@id/tatami" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:text="@string/tatami" />
+            <RadioButton android:id="@id/greenfelt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/green_felt" />
+        </RadioGroup>
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:id="@id/sent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/board" />
+        <RadioGroup android:id="@id/boardradiogroup" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <RadioButton android:id="@id/oakboard" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:text="@string/oak_board" />
+            <RadioButton android:id="@id/kayaboard" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/kaya_board" />
+        </RadioGroup>
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:id="@id/received" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/stones" />
+        <RadioGroup android:id="@id/stonesradiogroup" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <RadioButton android:id="@id/roundstones" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:text="@string/round_stones" />
+            <RadioButton android:id="@id/flatstones" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/flat_stones" />
+        </RadioGroup>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/statusmenu_looking" android:title="@string/looking" />
+    <item android:id="@id/statusmenu_accepting" android:title="@string/accepting" />
+    <item android:id="@id/statusmenu_refusing" android:title="@string/refusing" />
+</menu>

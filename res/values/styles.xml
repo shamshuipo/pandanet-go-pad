@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.appTheme" parent="@style/Theme.baseAppTheme" />
+    <style name="Theme.splash" parent="@android:style/Theme.Holo.Light">
+        <item name="android:windowBackground">@drawable/darkpandablue</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowActionBar">false</item>
+    </style>
+    <style name="Theme.baseAppTheme" parent="@android:style/Theme.Holo.Light">
+        <item name="android:windowBackground">@drawable/white</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowActionBar">false</item>
+    </style>
+</resources>

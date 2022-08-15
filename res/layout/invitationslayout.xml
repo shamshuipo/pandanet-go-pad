@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:layout_gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="40.0dip">
+            <TextView android:textAppearance="?android:textAppearanceSmall" android:textSize="13.0dip" android:textColor="@drawable/grayC" android:layout_gravity="bottom" android:id="@id/senttitle" android:paddingLeft="20.0dip" android:layout_width="244.0dip" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:layout_marginRight="4.0dip" android:text="@string/sent" android:layout_weight="1.0" android:textAllCaps="true" />
+            <TextView android:textAppearance="?android:textAppearanceSmall" android:textSize="13.0dip" android:textColor="@drawable/grayC" android:layout_gravity="bottom" android:id="@id/receivedtitle" android:paddingLeft="20.0dip" android:layout_width="244.0dip" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:layout_marginRight="4.0dip" android:text="@string/received" android:layout_weight="1.0" android:textAllCaps="true" />
+        </LinearLayout>
+        <LinearLayout android:layout_gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <include android:id="@id/sent0" android:layout_width="244.0dip" android:layout_height="140.0dip" android:layout_margin="4.0dip" android:layout_weight="1.0" layout="@layout/invitationcardlayout" />
+            <include android:id="@id/received0" android:layout_width="244.0dip" android:layout_height="140.0dip" android:layout_margin="4.0dip" android:layout_weight="1.0" layout="@layout/invitationcardlayout" />
+        </LinearLayout>
+        <LinearLayout android:layout_gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <include android:id="@id/sent1" android:layout_width="244.0dip" android:layout_height="140.0dip" android:layout_margin="4.0dip" android:layout_weight="1.0" layout="@layout/invitationcardlayout" />
+            <include android:id="@id/received1" android:layout_width="244.0dip" android:layout_height="140.0dip" android:layout_margin="4.0dip" android:layout_weight="1.0" layout="@layout/invitationcardlayout" />
+        </LinearLayout>
+        <LinearLayout android:layout_gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <include android:id="@id/sent2" android:layout_width="244.0dip" android:layout_height="140.0dip" android:layout_margin="4.0dip" android:layout_weight="1.0" layout="@layout/invitationcardlayout" />
+            <include android:id="@id/received2" android:layout_width="244.0dip" android:layout_height="140.0dip" android:layout_margin="4.0dip" android:layout_weight="1.0" layout="@layout/invitationcardlayout" />
+        </LinearLayout>
+        <LinearLayout android:layout_gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <include android:id="@id/sent3" android:layout_width="244.0dip" android:layout_height="140.0dip" android:layout_margin="4.0dip" android:layout_weight="1.0" layout="@layout/invitationcardlayout" />
+            <include android:id="@id/received3" android:layout_width="244.0dip" android:layout_height="140.0dip" android:layout_margin="4.0dip" android:layout_weight="1.0" layout="@layout/invitationcardlayout" />
+        </LinearLayout>
+        <LinearLayout android:layout_gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <include android:id="@id/sent4" android:layout_width="244.0dip" android:layout_height="140.0dip" android:layout_margin="4.0dip" android:layout_weight="1.0" layout="@layout/invitationcardlayout" />
+            <include android:id="@id/received4" android:layout_width="244.0dip" android:layout_height="140.0dip" android:layout_margin="4.0dip" android:layout_weight="1.0" layout="@layout/invitationcardlayout" />
+        </LinearLayout>
+        <LinearLayout android:layout_gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <include android:id="@id/sent5" android:layout_width="244.0dip" android:layout_height="140.0dip" android:layout_margin="4.0dip" android:layout_weight="1.0" layout="@layout/invitationcardlayout" />
+            <include android:id="@id/received5" android:layout_width="244.0dip" android:layout_height="140.0dip" android:layout_margin="4.0dip" android:layout_weight="1.0" layout="@layout/invitationcardlayout" />
+        </LinearLayout>
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:textSize="13.0dip" android:textColor="@drawable/halfblack" android:id="@id/invitationsinfo" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:layout_marginTop="24.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="16.0dip" android:text="Medium Text" />
+        <Button android:textSize="15.0dip" android:textColor="@drawable/white" android:layout_gravity="center_horizontal" android:id="@id/mygamebutton" android:background="@drawable/bluebutton" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="wrap_content" android:layout_height="32.0dip" android:layout_marginBottom="32.0dip" android:text="@string/back_to_game" android:textAllCaps="true" />
+    </LinearLayout>
+</ScrollView>

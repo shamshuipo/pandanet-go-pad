@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/listparent" android:background="@drawable/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListView android:id="@id/list" android:nextFocusRight="@id/index" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="0.0" />
+    <be.gentgo.tetsuki.RankIndexView android:id="@id/index" android:focusable="true" android:visibility="gone" android:nextFocusLeft="@id/list" android:layout_width="32.0dip" android:layout_height="fill_parent" android:layout_alignParentRight="true" />
+</RelativeLayout>

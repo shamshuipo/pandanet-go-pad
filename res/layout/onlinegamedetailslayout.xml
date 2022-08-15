@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="1.0" />
+    <LinearLayout android:orientation="vertical" android:layout_width="213.0dip" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip">
+        <TextView android:textAppearance="?android:textAppearanceLarge" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="16.0dip" android:text="Large Text" />
+        <be.gentgo.tetsuki.GameView android:id="@id/goban" android:background="@drawable/black" android:layout_width="213.0dip" android:layout_height="213.0dip" />
+        <TextView android:textAppearance="?android:textAppearanceSmall" android:id="@id/observerinfo" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:layout_marginBottom="3.0dip" android:text="Medium Text" />
+        <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="@drawable/darkpandablue" android:gravity="center_vertical" android:id="@id/whiteinfo" android:background="?android:selectableItemBackground" android:layout_width="fill_parent" android:layout_height="28.0dip" android:layout_marginTop="0.0dip" android:layout_marginBottom="0.0dip" android:text="Medium Text" />
+        <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="@drawable/darkpandablue" android:gravity="center_vertical" android:id="@id/blackinfo" android:background="?android:selectableItemBackground" android:layout_width="fill_parent" android:layout_height="28.0dip" android:layout_marginTop="0.0dip" android:layout_marginBottom="0.0dip" android:text="Medium Text" />
+    </LinearLayout>
+    <FrameLayout android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="1.0" />
+</LinearLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/titlebar" android:background="@drawable/gray4" android:layout_width="fill_parent" android:layout_height="56.0dip" android:baselineAligned="false">
+        <TextView android:textAppearance="?android:textAppearanceLarge" android:textColor="@drawable/white" android:gravity="center|left" android:layout_gravity="center" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:text="@string/new_game" android:layout_weight="1.0" />
+        <Button android:textSize="15.0dip" android:textColor="@drawable/white" android:layout_gravity="center_vertical" android:id="@id/invitebutton" android:background="@drawable/bluebutton" android:paddingLeft="24.0dip" android:paddingRight="24.0dip" android:layout_width="wrap_content" android:layout_height="36.0dip" android:layout_marginRight="16.0dip" android:text="@string/invite" android:layout_weight="0.0" android:textAllCaps="true" style="?android:attr/buttonStyleSmall" />
+    </LinearLayout>
+    <ListView android:id="@id/list" android:layout_width="fill_parent" android:layout_height="158.0dip" android:layout_weight="0.0" />
+    <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="@drawable/halfblack" android:id="@id/footer" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="8.0dip" android:layout_marginBottom="16.0dip" android:text="@string/invitations_info" android:layout_weight="1.0" />
+    <ViewFlipper android:id="@id/flipper" android:layout_width="fill_parent" android:layout_height="200.0dip">
+        <FrameLayout android:id="@id/boardframe" android:background="@drawable/gray4" android:padding="0.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/linearLayout1" android:padding="0.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <TextView android:textColor="@drawable/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="20.0dip" android:text="@string/board_size" />
+                <SeekBar android:id="@id/sizeslider" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" />
+                <LinearLayout android:orientation="horizontal" android:id="@id/linearLayout3" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip">
+                    <TextView android:textColor="@drawable/halfwhite" android:gravity="left" android:id="@id/textView6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="5" android:layout_weight="2.3" />
+                    <TextView android:textColor="@drawable/halfwhite" android:id="@id/textView3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="9" android:layout_weight="2.0" />
+                    <TextView android:textColor="@drawable/halfwhite" android:id="@id/textView4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="13" android:layout_weight="0.1" />
+                    <TextView android:textColor="@drawable/halfwhite" android:gravity="right" android:id="@id/textView5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="19" android:layout_weight="3.0" />
+                </LinearLayout>
+                <TextView android:textColor="@drawable/white" android:id="@id/mycolorlabel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="20.0dip" android:text="@string/my_color" />
+                <LinearLayout android:orientation="horizontal" android:id="@id/linearLayout2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginRight="12.0dip">
+                    <Button android:id="@id/blackbutton" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="0.0dip" android:layout_marginRight="0.0dip" android:text="@string/black" android:layout_weight="1.0" />
+                    <Button android:id="@id/nigiributton" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="0.0dip" android:layout_marginRight="0.0dip" android:text="@string/random" android:layout_weight="1.0" />
+                    <Button android:id="@id/whitebutton" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="0.0dip" android:layout_marginRight="0.0dip" android:text="@string/white" android:layout_weight="1.0" />
+                </LinearLayout>
+            </LinearLayout>
+        </FrameLayout>
+        <FrameLayout android:id="@id/handicapframe" android:background="@drawable/gray4" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:id="@id/linearLayout5" android:padding="0.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="30.0dip" android:layout_marginRight="30.0dip">
+                <kankan.wheel.widget.WheelView android:layout_gravity="center" android:id="@id/handicapwheel" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_margin="10.0dip" android:layout_weight="1.0" />
+            </LinearLayout>
+        </FrameLayout>
+        <FrameLayout android:id="@id/timeframe" android:background="@drawable/gray4" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:id="@id/linearLayout4" android:padding="0.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="30.0dip" android:layout_marginRight="30.0dip">
+                <kankan.wheel.widget.WheelView android:layout_gravity="center" android:id="@id/maintimewheel" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_margin="10.0dip" android:layout_weight="1.0" />
+                <kankan.wheel.widget.WheelView android:layout_gravity="center" android:id="@id/byoyomiwheel" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_margin="10.0dip" android:layout_weight="1.0" />
+            </LinearLayout>
+        </FrameLayout>
+    </ViewFlipper>
+</LinearLayout>

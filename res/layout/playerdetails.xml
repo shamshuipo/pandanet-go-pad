@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/pandablue" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TableLayout android:id="@id/table" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="15.0dip" android:layout_marginRight="20.0dip" android:layout_marginBottom="15.0dip">
+        <TableRow android:id="@id/tableRow2" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="22.0dip" android:textStyle="normal" android:textColor="@drawable/white" android:id="@id/name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="TextView" android:layout_weight="1.0" />
+            <TextView android:textSize="22.0dip" android:textStyle="normal" android:textColor="@drawable/white" android:gravity="right" android:id="@id/rank" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="TextView" android:alpha="0.75" />
+        </TableRow>
+        <TableRow android:id="@id/tableRow1" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="15.0dip" android:textStyle="normal" android:textColor="@drawable/white" android:id="@id/country" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="TextView" android:layout_weight="1.0" />
+            <TextView android:textSize="15.0dip" android:textStyle="normal" android:textColor="@drawable/white" android:gravity="right" android:id="@id/rankinfo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="TextView" android:alpha="0.75" />
+        </TableRow>
+    </TableLayout>
+</LinearLayout>

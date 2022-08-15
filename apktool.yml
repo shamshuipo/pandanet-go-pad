@@ -1,0 +1,38 @@
+!!brut.androlib.meta.MetaInfo
+apkFileName: panda-6.6.apk
+compressionType: false
+doNotCompress:
+- arsc
+- png
+- res/drawable-hdpi-v4/bubble.9.png
+- res/drawable-hdpi-v4/bubbleleft.9.png
+- res/drawable-hdpi-v4/bubbleright.9.png
+- res/drawable-mdpi-v4/mini_chevron_focus.9.png
+- res/drawable-mdpi-v4/mini_chevron_white.9.png
+- res/drawable-mdpi-v4/roundedframe.9.png
+- res/drawable-xhdpi-v4/pandabackground.9.png
+- res/drawable-xhdpi-v4/splash.9.png
+- res/drawable-xhdpi-v4/tab_focus.9.png
+- res/drawable-xhdpi-v4/tab_selected.9.png
+- res/drawable-xhdpi-v4/tab_selected_focus.9.png
+- res/drawable-xhdpi-v4/toolbox.9.png
+- res/drawable-xhdpi-v4/toolboxwinding.9.png
+- ogg
+isFrameworkApk: false
+packageInfo:
+  forcedPackageId: '127'
+  renameManifestPackage: null
+sdkInfo:
+  minSdkVersion: '16'
+  targetSdkVersion: '28'
+sharedLibrary: false
+sparseResources: true
+unknownFiles: {}
+usesFramework:
+  ids:
+  - 1
+  tag: null
+version: 2.3.4
+versionInfo:
+  versionCode: '6641'
+  versionName: 6.6.4

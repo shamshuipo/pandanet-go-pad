@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="58.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="58.0dip">
+        <ImageView android:id="@id/homecell_image" android:layout_width="50.0dip" android:layout_height="50.0dip" android:layout_marginLeft="10.0dip" android:layout_marginTop="4.0dip" android:layout_marginRight="0.0dip" android:layout_marginBottom="4.0dip" android:src="@drawable/button_help" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="150.0dip" android:layout_height="fill_parent" android:layout_marginLeft="4.0dip" android:layout_weight="1.0">
+            <TextView android:textAppearance="?android:textAppearanceMedium" android:textColor="@drawable/black" android:id="@id/homecell_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:layout_marginTop="4.0dip" android:text="@string/help" android:layout_weight="0.0" />
+            <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="@drawable/halfblack" android:id="@id/homecell_subtitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:layout_marginTop="-4.0dip" android:text="@string/help_subtitle" android:layout_weight="0.0" />
+        </LinearLayout>
+    </LinearLayout>
+    <FrameLayout android:id="@id/homecell_highlight" android:background="@drawable/whitetip" android:layout_width="20.0dip" android:layout_height="30.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    <TextView android:textAppearance="?android:textAppearanceMedium" android:textSize="15.0dip" android:textColor="@drawable/white" android:gravity="center" android:id="@id/badge" android:background="@drawable/redbadge" android:visibility="invisible" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginLeft="44.0dip" android:text="Medium Text" android:textAlignment="center" />
+</RelativeLayout>

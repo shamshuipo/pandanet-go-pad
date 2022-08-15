@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/invitationcardbackground" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="0.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="6.0dip">
+        <FrameLayout android:layout_gravity="center_vertical" android:id="@id/read" android:background="@drawable/bluedot" android:layout_width="10.0dip" android:layout_height="10.0dip" android:layout_marginLeft="8.0dip" android:layout_marginRight="2.0dip" />
+        <TextView android:textAppearance="?android:textAppearanceLarge" android:textSize="18.0dip" android:id="@id/name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="PlayerID" android:layout_weight="1.0" />
+        <TextView android:textAppearance="?android:textAppearanceLarge" android:textSize="18.0dip" android:id="@id/rank" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Rank" />
+    </LinearLayout>
+    <TextView android:textAppearance="?android:textAppearanceMedium" android:textSize="14.0dip" android:id="@id/details" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginRight="16.0dip" android:text="Line1\nLine2\nLine3" android:layout_weight="1.0" />
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:textSize="15.0dip" android:textColor="#ffbb0000" android:id="@id/decline_button" android:background="?android:selectableItemBackground" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/decline" android:layout_weight="1.0" android:textAllCaps="true" />
+        <Button android:textSize="15.0dip" android:textColor="#ff009900" android:id="@id/accept_button" android:background="?android:selectableItemBackground" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/accept" android:layout_weight="1.0" android:textAllCaps="true" />
+    </LinearLayout>
+</LinearLayout>

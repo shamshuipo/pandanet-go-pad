@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="drawable" name="listheaderbackgroundcolor">#ff333333</item>
+    <item type="drawable" name="white">#ffffffff</item>
+    <item type="drawable" name="black">#ff000000</item>
+    <item type="drawable" name="gray1">#ff111111</item>
+    <item type="drawable" name="gray2">#ff222222</item>
+    <item type="drawable" name="gray3">#ff333333</item>
+    <item type="drawable" name="gray4">#ff444444</item>
+    <item type="drawable" name="gray5">#ff555555</item>
+    <item type="drawable" name="gray6">#ff666666</item>
+    <item type="drawable" name="gray7">#ff777777</item>
+    <item type="drawable" name="gray8">#ff888888</item>
+    <item type="drawable" name="gray9">#ff999999</item>
+    <item type="drawable" name="grayA">#ffaaaaaa</item>
+    <item type="drawable" name="grayB">#ffbbbbbb</item>
+    <item type="drawable" name="grayC">#ffcccccc</item>
+    <item type="drawable" name="grayD">#ffdddddd</item>
+    <item type="drawable" name="grayE">#ffeeeeee</item>
+    <item type="drawable" name="pandablue">#ff50b1ee</item>
+    <item type="drawable" name="lightpandablue">#ff84cbf2</item>
+    <item type="drawable" name="darkpandablue">#ff1c8bd3</item>
+    <item type="drawable" name="halfwhite">#80ffffff</item>
+    <item type="drawable" name="halfgray">#80bbbbbb</item>
+    <item type="drawable" name="chatbackground">#b8ffffff</item>
+    <item type="drawable" name="halfblack">#80000000</item>
+    <item type="drawable" name="roundedlistbackground">#ffdfdfdf</item>
+    <item type="drawable" name="orange">#ccff7700</item>
+</resources>

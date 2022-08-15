@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="fill_parent" android:layout_height="50.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <LinearLayout android:orientation="vertical" android:id="@id/linearLayout2" android:layout_width="100.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <TextView android:textSize="18.0dip" android:textColor="@drawable/white" android:layout_gravity="right" android:id="@id/whiteplayer" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="0.0dip" android:text="@string/white" android:maxLines="1" />
+                <TextView android:textSize="14.0dip" android:textColor="@drawable/white" android:layout_gravity="center|right|top" android:id="@id/whitetime" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-2.0dip" android:text="00:00" />
+            </LinearLayout>
+            <ImageView android:layout_gravity="center|top" android:id="@id/turnimage" android:layout_width="23.0dip" android:layout_height="14.0dip" android:layout_marginLeft="6.0dip" android:layout_marginTop="6.0dip" android:layout_marginRight="6.0dip" android:layout_marginBottom="5.0dip" android:src="@drawable/whiteturn" android:layout_weight="0.0" />
+            <LinearLayout android:orientation="vertical" android:layout_width="100.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <TextView android:textSize="18.0dip" android:textColor="@drawable/white" android:id="@id/blackplayer" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="0.0dip" android:text="@string/black" android:maxLines="1" />
+                <TextView android:textSize="14.0dip" android:textColor="@drawable/white" android:layout_gravity="top" android:id="@id/blacktime" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-2.0dip" android:text="00:00" />
+            </LinearLayout>
+        </LinearLayout>
+        <TextView android:textSize="14.0dip" android:textColor="@drawable/white" android:gravity="center" android:id="@id/gametitle" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="-2.0dip" android:layout_marginBottom="4.0dip" android:text="@string/loading_game" android:layout_weight="0.0" />
+    </LinearLayout>
+</LinearLayout>
